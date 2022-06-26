@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css2?family=Koulen&display=swap);* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Koulen", cursive;
+  font-weight: 500;
+  font-size: 100%;
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+#app {
+  margin: 10px 0;
+}
+
+.nav-container {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  font-size: 0.7rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  width: 6%;
+}
+
+.nav-ul {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-li {
+  line-height: 75px;
+  border-bottom: 5px solid transparent;
+}
+
+.nav-li:hover {
+  border-bottom: 5px solid #0282f9;
+}
+
+.nav-li:hover a {
+  color: #0282f9;
+}
+
+.active {
+  border-bottom: 5px solid #0282f9;
+  color: #0282f9;
+}
+
+a {
+  color: inherit;
+}
+
+.card-container {
+  width: calc(16.6666666667% - 10px);
+  margin-top: 5%;
+}
+
+h4 {
+  font-size: 0.7rem;
+  color: white;
+  margin-top: 10%;
+}
+
+.line {
+  height: 20px;
+  width: 100%;
+  background-color: #0282f9;
+  position: relative;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-container .banner {
+  width: 100%;
+  height: 200px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 0;
+  position: relative;
+}
+
+.box {
+  color: white;
+  background-color: #0282f9;
+  border: 2px solid #0282f9;
+  padding: 0.05rem 0.8rem;
+  position: absolute;
+  margin-left: 15%;
+  bottom: -20px;
+}
+
+.comics-list {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  width: 30%;
+  margin: 0 auto 1.5%;
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  background-color: #0282f9;
+  border: 2px solid #0282f9;
+  padding: 0.01rem 3.5rem;
+  font-family: "Koulen", cursive;
+}
+
+.footer-container {
+  width: 100%;
+  height: calc(100vh - 180px);
+  display: flex;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  position: relative;
+}
+
+.img-container {
+  height: calc(100vh - 180px);
+  width: 400px;
+  vertical-align: middle;
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 15%;
+}
+
+.footer-menu {
+  width: 100%;
+  height: 100px;
+  background-color: #0282f9;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.footer-menu ul {
+  height: 50%;
+}
+
+.menu-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.menu-container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.7rem;
+}
+
+.menu-container li a {
+  color: inherit;
+  margin-left: 0.3rem;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+.footer-links {
+  width: 60%;
+  padding: 100px 0 80px 15%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.link-col {
+  margin-right: 2rem;
+}
+
+.link-col-top {
+  align-self: flex-start;
+}
+
+h3 {
+  color: white;
+  font-size: 1rem;
+}
+
+li {
+  color: #797979;
+  font-size: 0.6rem;
+}
+
+li a {
+  color: inherit;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 80px;
+  background-color: #303030;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-btm-container {
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-btm-container ul {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.btn {
+  color: white;
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  padding: 0.3rem 1rem;
+  font-family: "Koulen", cursive;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  color: #0282f9;
+  font-size: 1.2rem;
+}
+
+.icon-container {
+  width: 70%;
+}
+
