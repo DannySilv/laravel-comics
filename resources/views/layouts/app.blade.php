@@ -15,15 +15,9 @@
     @include('partials.header')
 
     <main>
-      @if ($utility['selected'] == false)
 
-        @include('partials.content')
-          
-      @else
-          
-      @include('partials.this-comic')
+      @yield('home')
 
-      @endif
     </main>
 
     @include('partials.footer')

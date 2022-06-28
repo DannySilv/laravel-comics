@@ -1,6 +1,128 @@
+$bg-border: #d8d8d8;
+
 .line {
-  height: 20px;
+  height: 40px;
   width: 100%;
   background-color: $blue;
   position: relative;
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+  .thumb-container {
+    width: 120px;
+    border: 1px solid white;
+    position: absolute;
+    left: 220px;
+    top: 138px;
+    .top-details {
+      font-size: 0.6rem;
+      background-color: $blue;
+      color: white;
+      position: absolute;
+      top: 0;
+    }
+    .btm-details {
+      width: 100%;
+      text-align: center;
+      font-size: 0.6rem;
+      background-color: $blue;
+      color: white;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .info-container {
+    width: 65%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    .info {
+        width: 65%;
+      h1 {
+        font-size: 1.3rem;
+      }
+      .available {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #55ba59;
+        border-bottom: 2px solid #377b3b;
+        line-height: 2rem;
+        font-size: 0.7rem;
+        .left {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-grow: 1;
+          color: #b6fa96;
+          padding: 0 1rem;
+          span {
+            color: white;
+          }
+        }
+        .right {
+          color: white;
+          border-left: 2px solid #377b3b;
+          text-align: center;
+          padding: 0 1rem;
+        }
+      }
+      .description {
+        margin-top: 1rem;
+        font-size: 0.7rem;
+        color: gray;
+      }
+    }
+    .ad {
+      width: 30%;
+      .adv {
+        color: gray;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.details {
+  width: 100%;
+  background-color: #f6f6f6;
+  border-top: 2px solid $bg-border;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  .col {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    h3 {
+      color: #003f5e;
+      font-size: 1.2rem;
+      line-height: 4rem;
+      border-bottom: 2px solid $bg-border;
+    }
+    .row {
+      padding: 0.7rem 0;
+      border-bottom: 2px solid $bg-border;
+      }
+    h4 {
+      color: #003f5e;
+      float: left;
+      font-size: 0.6rem;
+      width: 35%;
+      margin: 0;
+    }
+    p {
+      color: #00a9d9;
+      float: left;
+      width: 65%;
+      margin: 0;
+      font-size: 0.7rem;
+    }
+    .color {
+      color: gray;
+    }
+  }
 }
